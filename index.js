@@ -12,7 +12,7 @@ after creating a new bot you will get bot token .
 userName or link of out bot is --> t.me/coding_bot_for_node_bot
 */
 
-const bot = new Telegraf('6558825453:AAGhA8Sh78feuM8eZ0bsshXAgzVXEdoQKGU'); // create a new bot object and pass that token
+const bot = new Telegraf(process.evn'6558825453:AAGhA8Sh78feuM8eZ0bsshXAgzVXEdoQKGU'); // create a new bot object and pass that token
 
 // this token is nothing just a api key
 
